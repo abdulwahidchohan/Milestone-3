@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(73, 72, 72);
+}
+#main-container{
+   height: 80%;
+   width: auto;
+   display: flex;
+  margin-left: 10%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#left-side-heading{
+    font-size: 22px; 
+   margin-left: 50px;
+}
+@media(max-width:600px) {
+    #left-side-heading{
+        font-size: 22px;
+     margin-left: 30px;
+      
+    }
+}
+#linkedin-para:hover{
+    color: blue;
+  }
+.line{
+    width: auto;
+    height: 2px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+#left-side{
+    background-color: rgb(7, 156, 214);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#right-side{
+    background-color: azure;
+    width: 710px;
+}
+#right-side h4{
+  align-items: center;
+  font-size: 21px;
+  justify-content: center;
+  margin-left: 300px;
+ margin-bottom: 0;
+  padding: 0;
+}
+#div-of-section{
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+#div-of-section h5{
+   font-size: 19px;
+   margin: 0;
+   padding: 0%;
+}
+#software-para{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#div-of-section section p{
+    margin-top: 5px;
+}
+#left-side h4{
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+#left-side section{
+    font-size: 17px;
+ 
+}
+.line-left-sec{
+    width: auto;
+    height: 1px;
+    background-color: rgb(46, 45, 45);
+    margin: 0;
+    padding: 0;
+} 
+#left-side section li{
+    margin: 0;
+}
+#left-side section ul{
+    margin: 0;
+}
+@media (max-width:600px) {
+    #main-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      
+        margin-left: 0%;
+    }
+    #left-side-heading{
+        font-size: 25px;
+     margin-left: 200px;
+      
+    }
+    section h4{
+        font-size: 20px;
+        margin: 0;
+        margin-left: 20px;
+    }
+    .line-left-sec{
+        height: 1px;
+        background-color: rgb(80, 79, 77);
+        border-radius: 5px;
+        width: auto;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #right-side h4{
+        align-items: center;
+        font-size: 23px;
+       
+      margin-top: 10px;
+      text-align: center;
+      margin-bottom: 5px;
+        padding: 0;
+    }
+   #software-para{
+     text-align: center;
+   }
+   #div-of-section{
+    margin-left: 10px;
+   }
+   section h5{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+   }
+   section{
+    line-height: 20px;
+    font-size: 17px;
+   }
+   .line{
+    background-color: rgb(37, 37, 37);
+   margin-top: 10px;
+    margin-right: 20px;
+    height: 2px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: auto;
+   }
+   #left-side-heading{
+    margin-left: 0%;
+    text-align: center;
+   }
+   #left-side h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+   }
+   #right-side h4{
+    margin-left: 0px;
+   }
+  
+   #linkedin-para:hover{
+     color: blue;
+   }
+   
+   #left-side h4{
+    margin-bottom: 10px;
+   }
+}
+.hidden{
+    display: none;
+}
+.hide{
+    display: none;
+}
+
+.buttons{
+    color: rgb(21, 22, 22);
+    background-color: rgb(15, 136, 235);
+    height: 37px;
+    width: 130px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 17px;
+    padding: 0px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color: rgb(74, 191, 245);
+    color: rgb(32, 32, 32);
+}
+#hide-btn{
+    height: 44px;
+    width: 160px;
+}
+#btns-cont{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+#btns-div-one{
+    margin-left: 210px;
+}
+#btns-div-two {
+    margin-left: 150px;
+}
+@media(max-width:600px){
+    #btns-div-one{
+        margin-left: 60px;
+    }
+    #btns-div-two{
+        margin-left: 10px;
+    }
+    #btns-cont{
+        margin-top: 50px;
+    }
+}

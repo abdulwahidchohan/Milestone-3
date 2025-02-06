@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="resume-head" class="glowing-text">
+            <h1>Futuristic Resume Builder</h1>
+        </div>
+
+        <div id="res-main-cont" class="glass-morphism">
+            <p class="intro-text">Fill the form below to generate your futuristic resume.</p>
+            <form id="form" class="futuristic-form">
+                <section class="form-section">
+                    <h2 class="section-title">Personal Information</h2>
+                    <div class="input-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" id="cont-num" required>
+                        <label for="cont-num">Phone Number</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                </section>
+
+                <section class="form-section">
+                    <h2 class="section-title">Education</h2>
+                    <div class="input-group">
+                        <input type="text" id="matric" required>
+                        <label for="matric">Matriculation</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="inter-edu">
+                        <label for="inter-edu">Intermediate</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="higher-ed">
+                        <label for="higher-ed">Higher Education</label>
+                    </div>
+                </section>
+
+                <section class="form-section">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="input-group">
+                        <input type="text" id="ski1" required>
+                        <label for="ski1">Skill 1</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="ski2" required>
+                        <label for="ski2">Skill 2</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="ski3" required>
+                        <label for="ski3">Skill 3</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="ski4">
+                        <label for="ski4">Skill 4</label>
+                    </div>
+                </section>
+
+                <section class="form-section">
+                    <h2 class="section-title">Job Information</h2>
+                    <div class="input-group">
+                        <input type="text" id="job-tit" required>
+                        <label for="job-tit">Job Title</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="job-des" required></textarea>
+                        <label for="job-des">Job Description</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="comp-name" required>
+                        <label for="comp-name">Company Name</label>
+                    </div>
+                </section>
+
+                <section class="form-section">
+                    <h2 class="section-title">Work Experience</h2>
+                    <div class="input-group">
+                        <textarea id="pre-comp" required></textarea>
+                        <label for="pre-comp">Previous Work Experience</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="date" id="start-yr" required>
+                        <label for="start-yr">Start Date</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="date" id="end-yr" required>
+                        <label for="end-yr">End Date</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="work-loc" required>
+                        <label for="work-loc">Work Location</label>
+                    </div>
+                </section>
+
+                <section class="form-section">
+                    <h2 class="section-title">Languages</h2>
+                    <div class="input-group">
+                        <input type="text" id="lang-one" required>
+                        <label for="lang-one">Language 1</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="lang-two" required>
+                        <label for="lang-two">Language 2</label>
+                    </div>
+                </section>
+
+                <section class="form-section">
+                    <h2 class="section-title">Achievements</h2>
+                    <div class="input-group">
+                        <input type="text" id="ahieve1" required>
+                        <label for="ahieve1">Achievement 1</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="ahieve2" required>
+                        <label for="ahieve2">Achievement 2</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="ahieve3">
+                        <label for="ahieve3">Achievement 3</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="ahieve4">
+                        <label for="ahieve4">Achievement 4</label>
+                    </div>
+                </section>
+
+                <div class="button-group">
+                    <button id="gen-res-btn" type="button" class="generate-btn">Generate Static Resume</button>
+                    <button id="gen-pdf-btn" type="button" class="generate-btn">Generate PDF Resume</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
